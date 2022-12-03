@@ -32,3 +32,30 @@ a.photo:hover{
   padding: 10px;
   }
   
+  @media screen and (max-width: 768px) {
+
+    main {
+      width: 70%;
+    }
+  
+    .user-info h2 {
+      font-size: 1.25em;
+    }
+  
+    .user-info h3 {
+      font-size: 1.1em;
+    }
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    main {
+      width: 90%;
+    }
+  
+    .user-info h3 {
+      font-size: 0.95em;
+    }
+  
+  }
